@@ -56,6 +56,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master -r https://$GH_TOKEN@github.com/d3vel0per/blog.git",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   }
 }
